@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.4"
+        android:background="#000">
+
+    </LinearLayout>
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoViwe_thirdActivity_video"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.4"
+        android:background="#000">
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar_thirdActivity_seekBarVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_stop_black_24dp"
+            android:layout_weight="0.33"
+            android:id="@+id/imgViwe_thirdAcctivity_stopButton" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            android:layout_weight="0.33"
+            android:id="@+id/imgViwe_thirdAcctivity_playButton" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_pause_black_24dp"
+            android:layout_weight="0.33"
+            android:id="@+id/imgViwe_thirdAcctivity_PauseButton" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
